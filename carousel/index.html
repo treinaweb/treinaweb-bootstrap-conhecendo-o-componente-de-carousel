@@ -11,7 +11,7 @@
 <body>
     <div class="container">
 
-        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -19,33 +19,37 @@
                 <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button> 
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+
+                <div class="carousel-item active" data-bs-interval="500">
                     <img src="Frame 1.png" alt="imagem 1" class="d-block w-100">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3>Primeiro Slide</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur culpa deleniti</p>
                         <button class="btn btn-primary">Veja mais!</button>
                     </div>
                 </div>
-                <div class="carousel-item">
+
+                <div class="carousel-item"  data-bs-interval="500">
                     <img src="tree-alone-dark-evening-4k.jpg" alt="imagem 2" class="d-block w-100" height="800px">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3>Segundo Slide</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur culpa deleniti</p>
                         <button class="btn btn-primary">Veja mais!</button>
                     </div>
                 </div>
-                <div class="carousel-item ">
+
+                <div class="carousel-item "  data-bs-interval="2000">
                     <img src="Frame 3.png" alt="imagem 3" class="d-block w-100">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3>Terceiro Slide</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur culpa deleniti</p>
                         <button class="btn btn-primary">Veja mais!</button>
                     </div>
                 </div>
-                <div class="carousel-item ">
+
+                <div class="carousel-item "  data-bs-interval="500">
                     <img src="Frame 4.png" alt="imagem 4" class="d-block w-100">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3>Quarto Slide</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur culpa deleniti</p>
                         <button class="btn btn-primary">Veja mais!</button>
